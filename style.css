@@ -1,0 +1,224 @@
+@font-face {
+    font-family:'source_sans_proregular';
+    src: url('assets/fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'), url('assets/fonts/sourcesanspro-regular-webfont.woff') format('woff'), url('assets/fonts/sourcesanspro-regular-webfont.ttf') format('truetype'), url('assets/fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+@media(min-width: 768px) {
+    .container {
+        max-width: 760px;
+    }
+    .fix {
+        padding-left:35px;
+        padding-right:35px;
+    }
+    .main {
+        padding-left:35px;
+        padding-right:35px;
+    }
+}
+@media(max-width: 768px) {
+    .clr {
+        margin-top:300px;
+    }
+    .fix {
+        padding-left:10px;
+        padding-right:10px;
+    }
+    .main {
+        padding-left:10px;
+        padding-right:10px
+    }
+}
+@media(min-width: 768px) {
+    .clr {
+        margin-top:125px;
+    }
+}
+html {
+    font-family:'source_sans_proregular', Helvetica, Arial, sans-serif;
+    font-weight:400;
+}
+body {
+    font-family:'source_sans_proregular', Helvetica, Arial, sans-serif;
+    background-color:#1F1F1F;
+}
+.container {
+    background-color:white;
+    left:0;
+    right:0;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family:'source_sans_proregular', Helvetica, Arial, sans-serif;
+}
+.row{
+    background-color:white;
+}
+.fix {
+    position: fixed;
+    right: 0;
+    left: 0;
+    border-width: 0 0 1px;
+    background-color:white;
+    z-index:1;
+    border-bottom:1px solid #FAF4F4;
+    margin-top:15px;
+}
+.school {
+    margin-bottom:2px;
+    margin-top:2px;
+}
+.it div div p {
+    margin-bottom:2px;
+}
+.dummyTop {
+    position: fixed;
+    right: 0;
+    left: 0;
+    border-width: 0 0 1px;
+    background-color:#1F1F1F;
+    height:15px;
+    z-index:1;
+}
+.dummyBottom {
+    background-color:#1F1F1F;
+    height:50px;
+}
+a:hover {
+    color:red;
+}
+a:hover i[class^="icon-"] {
+    color:red;
+    text-decoration:none;
+}
+a {
+    color:rgb(51, 51, 51);
+    text-decoration:none;
+}
+hr{
+    margin-top:2px;
+    margin-bottom:2px;
+}
+
+/*====================================*/
+
+[class*='uk-animation-'] {
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+/*
+ * Slide
+ */
+.uk-animation-slide-top {
+  -webkit-animation-name: uk-slide-top;
+  animation-name: uk-slide-top;
+}
+.uk-animation-slide-bottom {
+  -webkit-animation-name: uk-slide-bottom;
+  animation-name: uk-slide-bottom;
+}
+/* Keyframes
+ ========================================================================== */
+/*
+ * Slide top
+ */
+@-webkit-keyframes uk-slide-top {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@keyframes uk-slide-top {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/*
+ * Slide bottom
+ */
+@-webkit-keyframes uk-slide-bottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@keyframes uk-slide-bottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/*
+ * Slide top fixed
+ */
+@-webkit-keyframes uk-slide-top-fixed {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@keyframes uk-slide-top-fixed {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/*
+ * Slide bottom fixed
+ */
+@-webkit-keyframes uk-slide-bottom-fixed {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@keyframes uk-slide-bottom-fixed {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
