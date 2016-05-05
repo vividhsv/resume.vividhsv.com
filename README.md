@@ -1,7 +1,6 @@
-resume.vividhsv.com site code.
+# Personal Resume Static Site
 
-Uses: 
-bootstrap - 3.3.1
-font-awesome - 4.2.0
-
-Font - SourceSansPro
+## Created using
+ * Bootstrap - 3.3.6
+ * Font-awesome - 4.6.1
+ * Font - SourceSansPro
