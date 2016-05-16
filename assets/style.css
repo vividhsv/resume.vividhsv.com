@@ -4,7 +4,7 @@ html, html a {
 }
 @media(min-width: 768px) {
     .container {
-        max-width: 760px;
+        max-width: 870px;
     }
     .fix {
         padding-left:35px;
@@ -49,6 +49,18 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family:'Open Sans', Helvetica, Arial, sans-serif;
     font-weight: 600;
 }
+
+table{
+  width: 100%;
+  font-size: 13px;
+}
+
+td {
+  text-align: center;
+  width: 50%;
+}
+
+table td + td { border-left:1px solid #eee; }
 .row{
     background-color:white;
 }
