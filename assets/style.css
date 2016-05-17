@@ -4,7 +4,7 @@ html, html a {
 }
 @media(min-width: 768px) {
     .container {
-        max-width: 870px;
+        max-width: 960px;
     }
     .fix {
         padding-left:35px;
@@ -30,7 +30,7 @@ html, html a {
 }
 @media(min-width: 768px) {
     .clr {
-        margin-top:150px;
+        margin-top:140px;
     }
 }
 html {
@@ -45,14 +45,54 @@ body {
     left:0;
     right:0;
 }
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family:'Open Sans', Helvetica, Arial, sans-serif;
-    font-weight: 600;
+    font-weight: 700;
 }
+h2, .h2 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+h3, .h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.sm-italic{
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px
+}
+
+.italic{
+  font-style: italic;
+}
+
+.block{
+  display: block;
+}
+
+.exp{
+  margin-bottom: 35px;
+}
+
+.exp:first-of-type{
+  margin-top: 15px;
+}
+
+.side{
+  border-right: 1px solid #eee;
+}
+
 
 table{
   width: 100%;
   font-size: 13px;
+  margin-top: 15px;
 }
 
 td {
